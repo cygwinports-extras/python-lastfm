@@ -1,0 +1,22 @@
+--- origsrc/lastfm-0.1/src/api.py	2008-09-02 11:20:53.000000000 -0500
++++ src/lastfm-0.1/src/api.py	2011-08-10 18:27:59.422377000 -0500
+@@ -304,7 +304,7 @@ from tasteometer import Tasteometer
+ from track import Track
+ from user import User
+ 
+-if sys.version.startswith('2.5'):
++if sys.version >= '2.5':
+     import xml.etree.cElementTree as ElementTree
+ else:
+     try:
+--- origsrc/lastfm-0.1/src/playlist.py	2008-09-02 11:20:53.000000000 -0500
++++ src/lastfm-0.1/src/playlist.py	2011-08-10 18:28:03.829629100 -0500
+@@ -53,7 +53,7 @@ import StringIO
+ import sys
+ from error import LastfmInvalidParametersError
+ 
+-if sys.version.startswith('2.5'):
++if sys.version >= '2.5':
+     import xml.etree.cElementTree as ElementTree
+ else:
+     try:

@@ -1,0 +1,7 @@
+category: Python
+requires: python
+sdesc: "Python Last.fm library"
+ldesc: "This package provides a python interface to the last.fm web 
+services API.  It also contains some composite methods built upon the 
+methods provided by the web service API. Authentication and 
+authenticated methods are supported."

@@ -1,0 +1,8 @@
+inherit distutils
+
+
+HOMEPAGE="http://code.google.com/p/python-lastfm/"
+SRC_URI="http://python-lastfm.googlecode.com/svn/trunk/dist/lastfm-${PV}.tar.gz"
+
+PATCH_URI="0.1-no-stdeb.patch
+           0.1-py26.patch"
